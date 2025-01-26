@@ -5,6 +5,7 @@ import { ACCESS_TOKEN, REFRESH_TOKEN } from "../constants";
 import "../styles/Form.css"
 import LoadingIndicator from "./LoadingIndicator";
 
+// eslint-disable-next-line react/prop-types
 function Form({ route, method }) {
     const [username, setUsername] = useState("")
     const [password, setPassword] = useState("")
